@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    width: 100%;
+    height: 32rem;
+  }
+  
+  .heading {
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 1.3rem;
+  }
+  
+  .head {
+    padding-top: 3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head2 {
+    flex: 1;
+    margin-right: 20px;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the images container */
+  }
+  
+  .image {
+    width: 30%; /* Adjust the width of each image */
+    margin: 0 5px; /* Add margin between images */
+  }
+  
+  .section-page{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+  }
+
+  
